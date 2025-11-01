@@ -1,0 +1,36 @@
+name: lendwise
+description: "A smart and secure loan management app that digitizes records, automates calculations, and leverages AI to simplify operations for small-scale loan managers."
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.0.0
+  local_auth: ^2.0.0
+  crypto: ^3.0.0
+  uuid: ^4.0.0
+  intl: 0.20.2
+  pdf: ^3.0.0
+  path_provider: ^2.0.0
+  share_plus: ^12.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/dreamflow_icon.jpg
+  remove_alpha_ios: true
